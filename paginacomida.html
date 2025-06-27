@@ -1,24 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi primera página</title>
+    <meta charset="UTF-8">
+    <title>Cenaduría El Buen Sazón</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            color: #4b2e1e;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #a0522d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffe4c4;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #a0522d;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .menu {
+            margin-top: 20px;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .menu li {
+            margin: 8px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenido a mi web</h1>
+        <h1>Cenaduría El Buen Sazón</h1>
         <nav>
             <a href="/inicio">Inicio</a> |
+            <a href="/menu">Menú</a> |
             <a href="/contacto">Contacto</a>
         </nav>
     </header>
 
     <section>
-        <p>Este es un párrafo de ejemplo.</p>
-        <img src="logo.png" alt="Logo">
+        <p>¡Bienvenido! Aquí encontrarás los mejores antojitos mexicanos, recién hechos y con mucho sazón.</p>
+        <img src="https://www.cocinavital.mx/wp-content/uploads/2024/05/pozole-rojo-1.jpg" alt="Imagen de platillo típico" width="300">
+        
+        <div class="menu">
+            <h2>Platillos populares</h2>
+            <ul>
+                <li>🍽️ Enchiladas verdes</li>
+                <li>🌮 Tacos dorados</li>
+                <li>🥣 Pozole</li>
+                <li>🍲 Sopes surtidos</li>
+            </ul>
+        </div>
     </section>
 
     <footer>
-        <p>© 2024 Mi página web</p>
+        <p>© 2024 Cenaduría El Buen Sazón. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
